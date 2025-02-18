@@ -15,7 +15,7 @@
 -  	Hostname: 127.0.0.1
 -   Port: 3306
 -   username: root
--   password: root 
+-   password: 12345 
 4.	Click Ok. “rvdev” will display under  MySQL connections.
 5.	Double click on the "rvdev" connection
 6.	Open the script rvdev\scripts\rvdev_schema.sql from rvdev project in mysql and execute it.
@@ -65,7 +65,7 @@ Run command "mvn clean -DskipTests=true install"
 
  Run command "java -jar .\rvdev-api\target\rvdev-api-0.0.1-SNAPSHOT.jar" to run the application on local server
 
-In browser, open http://localhost:8080/#/rvdev/login
+In browser, open http://localhost:8080/#/rvdev
 
 
 # Build and deploy to AWS
